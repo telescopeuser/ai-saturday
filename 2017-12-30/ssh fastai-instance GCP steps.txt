@@ -12,8 +12,9 @@ bash gcp-asia-east1.sh
 
 SSH into GCP: fastai-instance
 
-# Bash script for setting up environment on Ubuntu 16.04 
+# Bash script for setting up environment on Ubuntu 16.04 (python 2.7 was used due to Fast.AI course requirements)
 wget https://raw.githubusercontent.com/howkhang/fastai-setup/master/gpc-install-gpu.sh
 
 bash gpc-install-gpu.sh
 
+pip install keras -U
