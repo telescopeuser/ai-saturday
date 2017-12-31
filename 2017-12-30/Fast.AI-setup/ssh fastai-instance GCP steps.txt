@@ -1,0 +1,20 @@
+http://www.fast.ai/
+
+use script and GCP SDK to create GPU vm instance:
+
+
+$ gcloud init
+
+# make sure GCP authentication is successful, then:
+
+wget https://github.com/telescopeuser/fastai-setup/blob/master/bash/gcp-asia-east1.sh
+bash gcp-asia-east1.sh
+
+SSH into GCP: fastai-instance
+
+# Bash script for setting up environment on Ubuntu 16.04 (python 2.7 was used due to Fast.AI course requirements)
+wget https://raw.githubusercontent.com/howkhang/fastai-setup/master/gpc-install-gpu.sh
+
+bash gpc-install-gpu.sh
+
+pip install keras -U
